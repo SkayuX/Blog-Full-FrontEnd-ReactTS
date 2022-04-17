@@ -1,0 +1,39 @@
+
+body {
+    background-color: rgb(34, 37, 41);
+}
+
+
+.cardcomp-div {
+    float: left;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}  
+
+.main-card-comp {
+    display: block;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.mantine-1ln5hv2 {
+    background-color: #1A1B1E!important
+}
+
+@media screen and (max-width: 1028px) {
+
+    .cardcomp-div {
+        float: left;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        
+    }
+
+}
