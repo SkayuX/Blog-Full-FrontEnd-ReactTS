@@ -4,7 +4,7 @@ function FooterComponent() {
 
     return (
         <div style={{display: 'flex', justifyContent: 'center', width: '80%'}}>
-          <div style={{width: '80%', marginTop: '5%', zIndex: '1'}} >
+          <div style={{width: '80%', marginTop: '5%'}} >
           <h2>What is this place?</h2>
           <ul>
             <li>Oh, it's just a blog. Free to use, you can create edit even delete posts. But Beware! Other users can delete your blogs too!</li>
