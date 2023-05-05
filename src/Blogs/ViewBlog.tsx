@@ -72,7 +72,7 @@ function ViewBlog() {
                 <h1>
                 <div dangerouslySetInnerHTML={{ __html: titleValue }} style={{display: 'flex', width: '100%', wordWrap: 'break-word', wordBreak: 'break-word' }}></div>
                 <Badge color="yellow" variant="light" size="lg">Author: {authorValue}</Badge></h1>
-                <div dangerouslySetInnerHTML={{ __html: shortDescValue }} style={{display: 'flex', wordWrap: 'break-word', wordBreak: 'break-word', fontWeight: '400' }}></div>
+                <div dangerouslySetInnerHTML={{ __html: shortDescValue }} style={{display: 'flex', wordWrap: 'break-word', wordBreak: 'break-word' }}></div>
                 <br />
                 <div className="main-content">
                     <Stack>
