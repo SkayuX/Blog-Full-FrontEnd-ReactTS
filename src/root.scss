@@ -1,0 +1,37 @@
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.main {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2.5%;
+  margin: 0;
+  color: white;
+}
+
+.navbar-brand {
+    padding-top: 0.2350rem!important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #616161;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
