@@ -27,9 +27,9 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="blogs/:BlogID" element={<ViewBlog />} />
-      <Route path="blogs/create" element={<CreateBlogForm />} />
-      <Route path="blogs/edit/:BlogID" element={<EditBlogForm />} />
+      <Route path="/blogs/:BlogID" element={<ViewBlog />} />
+      <Route path="/blogs/create" element={<CreateBlogForm />} />
+      <Route path="/blogs/edit/:BlogID" element={<EditBlogForm />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
   </BrowserRouter>
